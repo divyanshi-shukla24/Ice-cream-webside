@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<style type="text/css">
+		.container{
+			margin-top: 8%;
+			width: 400px;
+			border: ridge 1.5px white;
+			padding: 20px;
+		}
+		body{
+			background: #E0EAFC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+		}
+        .Connect{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .left{
+            width: 50%;
+        }
+        .right{
+            width: 50%;
+            padding: 50px !important;
+        }
+	</style>
+</head>
+<body>
+<div class="Connect">
+    <div class="left"><h1>Divyanshi</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, 
+            laboriosam veritatis cum voluptatem error aut asperiores animi impedit provident magni unde voluptatibus numquam deserunt corporis iusto assumenda, 
+            tempora dignissimos necessitatibus.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111544.00442452918!2d73.62247037170079!3d24.608263766787967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e56550a14411%3A0xdbd8c28455b868b0!2sUdaipur%2C%20Rajasthan!5e1!3m2!1sen!2sin!4v1732727949902!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+	<div class="right">
+		<h2>Connect Us</h2>
+	<!-- <form action="bootstrapform.php" method="post"> -->
+        <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="dba0f0ff-dcda-4e73-a1cc-02452986e0a2">
+		<div class="form-group">
+    <label for="firstname">First Name</label>
+    <input type="text" class="form-control" id="exampleInputfirstname" name="firstname">
+  </div>
+  <div class="form-group">
+    <label for="lastname">Last Name</label>
+    <input type="text" class="form-control" id="exampleInputlastname" name="lastname">
+  </div>
+  <div class="form-group">
+    <label for="phoneno">Phone Number</label>
+    <input type="text" class="form-control" id="exampleInputphoneno" name="phoneno">
+  </div>
+  <div class="form-group">
+    <label for="Email1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+  </div>
+  <button type="submit" class="btn btn-primary" name="create">Send Massage</button>
+</form>
+</div>
+</div>
+</body>
+</html>
+
+</body>
+</html>
